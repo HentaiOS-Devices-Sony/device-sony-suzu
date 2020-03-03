@@ -12,11 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_f5121.mk \
-                     $(LOCAL_DIR)/aosp_f5122.mk
-
+PRODUCT_MAKEFILES :=  \
+    $(LOCAL_DIR)/hentai_suzu_RoW.mk \
+    $(LOCAL_DIR)/hentai_suzu_DSDS.mk
+    
 COMMON_LUNCH_CHOICES += \
-    aosp_f5121-eng \
-    aosp_f5121-userdebug \
-    aosp_f5122-eng \
-    aosp_f5122-userdebug
+    hentai_suzu_RoW-eng \
+    hentai_suzu_RoW-userdebug \
+    hentai_suzu_RoW-user \
+    hentai_suzu_DSDS-eng \
+    hentai_suzu_DSDS-userdebug \
+    hentai_suzu_DSDS-user \
