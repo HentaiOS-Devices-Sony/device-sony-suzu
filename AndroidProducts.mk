@@ -14,8 +14,9 @@
 
 PRODUCT_MAKEFILES :=  \
     $(LOCAL_DIR)/hentai_suzu_RoW.mk \
-    $(LOCAL_DIR)/hentai_suzu_DSDS.mk
-    
+    $(LOCAL_DIR)/hentai_suzu_DSDS.mk \
+    $(LOCAL_DIR)/hentai_suzu_RoW_Go.mk \
+    $(LOCAL_DIR)/hentai_suzu_DSDS_Go.mk
 COMMON_LUNCH_CHOICES += \
     hentai_suzu_RoW-eng \
     hentai_suzu_RoW-userdebug \
@@ -23,3 +24,9 @@ COMMON_LUNCH_CHOICES += \
     hentai_suzu_DSDS-eng \
     hentai_suzu_DSDS-userdebug \
     hentai_suzu_DSDS-user \
+    hentai_suzu_RoW_Go-eng \
+    hentai_suzu_RoW_Go-userdebug \
+    hentai_suzu_RoW_Go-user \
+    hentai_suzu_DSDS_Go-eng \
+    hentai_suzu_DSDS_Go-userdebug \
+    hentai_suzu_DSDS_Go-user \
